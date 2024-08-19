@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import ButtonComponent from "./components/ButtonComponent";
+import ImageComponent from "./components/ImageComponent";
 
 function App() {
   return (
@@ -9,6 +11,12 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <ButtonComponent label="first button" />
+        <ImageComponent src="https://placedog.net/300" alt="cane random" />
+        <ButtonComponent label="second button" />
+        <ImageComponent src="https://placedog.net/300" alt="cane random" />
+        <ButtonComponent label="third button" />
+        <ImageComponent src="https://placedog.net/300" alt="cane random" />
         <a
           className="App-link"
           href="https://reactjs.org"
